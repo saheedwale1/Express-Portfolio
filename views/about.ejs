@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me - My Portfolio</title>
+    <link rel="stylesheet" href="/stylesheets/about.css" />
+  </head>
+  <body>
+    <%- include('partials/header') %>
+    <div class="container">
+      <h1>About Me</h1>
+      <img
+        src="/images/about-image.jpg"
+        alt="Profile Picture"
+        class="profile-image"
+      />
+      <p>
+        My name is Saheed Muhammed, and I am a Software engineer. I’m a
+        dedicated software engineer with expertise in web and mobile app
+        development. I specialize in building efficient, scalable solutions
+        using expressJS,React and JavaScript. Passionate about learning new
+        technologies and contributing to impactful projects.
+      </p>
+      <a href="/resume.pdf" target="_blank" class="resume-link"
+        >Download My Resume</a
+      >
+    </div>
+    <%- include('partials/footer') %>
+  </body>
+</html>

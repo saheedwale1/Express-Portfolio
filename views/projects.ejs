@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - My Portfolio</title>
+    <link rel="stylesheet" href="/stylesheets/project.css" />
+  </head>
+  <body>
+    <%- include('partials/header') %>
+    <div class="container">
+      <h1>My Projects</h1>
+      <div class="flex-container">
+        <div class="project">
+          <img src="images/expense-tracker.png" alt="Project 1" />
+          <h3>Expense Tracker</h3>
+          <p>
+            A mobile or web application designed to help users manage their
+            finances by easily recording daily expenses.
+          </p>
+        </div>
+        <div class="project">
+          <img src="/images/Dictionary.png" alt="Project 2" />
+          <h3>Dictionary</h3>
+          <p>
+            A reference book or digital resource that lists words in
+            alphabetical order and provides their meanings, pronunciations, word
+            origins, and other relevant information.
+          </p>
+        </div>
+        <div class="project">
+          <img src="/images/food-app.png" alt="Project 3" />
+          <h3>Food-app</h3>
+          <p>
+            A mobile or web application that allows users to explore, order, and
+            manage meals from their favorite restaurants or grocery stores.
+          </p>
+        </div>
+      </div>
+    </div>
+    <%- include('partials/footer') %>
+  </body>
+</html>
